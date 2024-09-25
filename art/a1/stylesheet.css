@@ -1,0 +1,42 @@
+body {
+  font-family: "Lucida Sans Unicode",arial,sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+div.fixed {
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0;
+  position: fixed;
+  top: 0;
+}
+a.fixed:visited, a.fixed:link, a.fixed:active, a.fixed:hover {
+  color:white;
+  font-family: "Lucida Console", courier, monospace;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  margin: 120px 15% auto 15%;
+  padding: 3%;
+}
+.card::after, .td::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.cover {
+  float: left;
+  width: 35%;
+}
+.content {
+  float: left;
+  font-size: 0.8em;
+  width:65%;
+}
+img{max-width: 90%;}
